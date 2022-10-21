@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.808);
+    height: 80px;
+    margin-bottom: 1.5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.dropdown-menu{
+    font-size: 15px;
+}
+.iconobab{
+    width:85px;
+    height:75px; 
+}
+
+div.container-fluid{
+    width: 100%;
+}
+
+.collapse.navbar-collapse{
+    background-color:0;
+}
+
+a:hover .imgcontacto {
+    transition:all .5s ease-in-out;
+}
+
+
+a.nav-link:hover{
+
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+    transition:all .5s ease-in-out
+}
+
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.main-img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: auto;
+    margin-top: -10%;
+    margin-bottom: 3%;
+}
+
+.contenedorimg{
+    width: 100%;
+    height: 80%;
+}
+
+.imgmain{
+    width: 100%;
+    height: 700px;
+}
+
+.titulobio{
+    text-align: center;
+}
+
+.fotosmini{
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorgrande{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contenedor{
+   width: 100%;
+   margin:1%;
+   height: 190px;
+}
+
+.img-sec{
+    width: 100%;
+    height:100%;
+}
+
+
+.encabezado{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+.descripcion{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    text-justify: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.parrafos{
+    text-align:justify;
+    color: black;
+    font-size: 13px;
+    text-justify: auto;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.loquehago{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1%;
+    padding: 1%;
+}
+
+.preparativo {
+    width: 100%;
+    height: 100%;
+}
+
+
+.imgcontacto{
+    width: 6%;
+    height: 6%;
+    padding:10px ;
+    
+}
+
+.contacto{
+    display:inline;
+    color: black;
+    text-align: center;
+}
+
+.titlecontacto{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-left: 2%;
+}
+
+.fotoeventos{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeriafaq{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.imgfaq{
+    height: 500px;
+}
+.preparativofaq{
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  footer{
+    margin-top: 3%;
+    align-items: center;
+  }
+
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.galeriaimg{
+    width: 550px;
+    height: 380px;
+    align-items: center;
+    margin: auto;
+}
+
+main.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+img.galeriaimg{
+    margin-bottom: 5%;
+}
+
+.aboutme{
+    width: 70%;
+    padding: auto;
+
+}
+
+.sobremi{
+    text-align:justify;
+    
+}
+
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulobio{
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width:990px) {
+  
+    .navbar.navbar-expand-lg.sticky-top.text-white{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .navbar{
+        margin-bottom: 5%;
+        background-color: white;
+    }
+
+    a.nav-link{
+        background-color: white;
+        color: black;
+    }
+
+     .iconobab{
+        width:100px;
+        height:90px; 
+    }
+
+    button.navbar-toggler.collapsed{
+        background-color: white;
+    }
+
+    div.container-fluid{background-color: white;}
+
+     .contenedor{
+        width: 100%;
+     }
+
+     .contenedorimg{
+        height: 100%;
+     }
+
+     .fotosmini{
+        flex-direction: column;
+     }
+
+     .fotoeventos{
+        display: flex;
+        width: 100%;
+     }
+
+    
+    .imgmain{
+        width: 100%;
+        height: 70%;
+      }
+
+    .img-sec{
+        width: 100%;
+        height: 100%;
+      }
+
+    .contenedor{
+        width: 100%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loquehago{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriaimg{
+        width:90%;
+        height:90%;
+      }
+
+      
+    .aboutme{
+        width: 250px;
+        padding: auto;
+        padding: 0 auto; 
+        }
+ }
+
+ @media only screen and (max-width:768px) {
+    .navbar.navbar-expand-lg.sticky-top.text-white{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .navbar{
+        margin-bottom: 5%;
+        background-color: white;
+    }
+
+    a.nav-link{
+        background-color: white;
+        color: black;
+    }
+
+     .iconobab{
+        width:100px;
+        height:90px; 
+    }
+
+    button.navbar-toggler.collapsed{
+        background-color: white;
+    }
+
+    div.container-fluid{background-color: white;}
+
+
+     .fotosmini{
+        display: flex;        
+     }
+
+     .contenedorgrande{
+        justify-content: center;
+        align-items: center;
+     }
+
+     .contenedor{
+        width: 30%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+     }
+
+     .contenedorimg{
+        width: 100%;
+        height: 100%;
+     }
+
+
+
+     .main-img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .imgmain{
+        width: 100%;
+        height: 70%;
+        margin-bottom: 5%;
+      }
+
+    .img-sec{
+       width: 100%;
+      }
+
+    .imgcontacto{
+        width: 15%;
+    }
+
+    footer{
+        align-items: center;
+    }
+
+    .galeriaimg{
+        width:100%;
+        height:100%;
+      }
+
+    .fotoeventos{
+        width: 90%;
+        height: 90%;
+        align-items: center;
+    }
+
+    .row.row-cols-2.justify-content-evenly{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .aboutme{
+        width: 350px;
+        padding: auto;
+
+        }
+ }
+
+
+
+ @media only screen and (max-width:425px) {
+     
+    .navbar.navbar-expand-lg.sticky-top.text-white{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .navbar{
+        margin-bottom: 15%;
+        background-color: white;
+    }
+
+    a.nav-link{
+        background-color: white;
+        color: black;
+    }
+
+    button.navbar-toggler.collapsed{
+        background-color: white;
+    }
+
+    div.container-fluid{background-color: white;}
+
+    .main-img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .imgmain{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 2%;
+    }
+
+    .contenedorimg{
+        width: 100%;
+        height: 100%;
+    }
+    
+   
+    .fotosmini{
+        flex-direction:row;
+        width: 100%;
+        align-items: flex-start;
+
+    }
+
+   
+    .contenedorgrande{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        margin-left: -5%;
+        align-items: center;
+    }
+
+
+    .loquehago{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeriaimg{
+        width:100%;
+        height:100%;
+        justify-content: center;
+      }
+
+    img.aboutme{
+        width: 100%;
+        padding: auto;
+        margin-left: 0px;
+
+        }
+
+    .row.row-cols-2.justify-content-evenly{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .fotoeventos{
+        width: 90%;
+    }
+
+
+    .imgcontacto{
+        width: 20%;
+    }
+
+    .img-sec{
+        height: 100px;
+        width: 150px;
+    }
+
+    footer{
+        margin-top: 10%;
+        align-items: center;
+    }
+
+    .aboutme{
+        width: 200px;
+        margin-left:-18%;
+
+        }
+
+
+ }
