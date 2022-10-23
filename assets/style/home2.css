@@ -4,6 +4,28 @@
     font-family: sans-serif;
 }
 
+footer{
+    margin-top: 5%;
+}
+
+footer a{
+    color: #000000;
+    text-decoration: none;
+    display: inline;
+}
+
+p.parrafos{
+    font-size: 15px;
+}
+
+h2.descripcion{
+    font-size: 16px;
+}
+
+h3.descripcion{
+    font-size: 16px;
+}
+
 .navbar{
     background-color: rgba(255, 255, 255, 0.808);
     height: 80px;
@@ -30,6 +52,11 @@ div.container-fluid{
 
 a:hover .imgcontacto {
     transition:all .5s ease-in-out;
+}
+
+
+ul.dropdown-menu.show{
+    text-align: center;
 }
 
 
@@ -145,37 +172,54 @@ a.nav-link:hover{
 
 
 .imgcontacto{
-    width: 6%;
-    height: 6%;
+    width: 5%;
+    height: 5%;
     padding:5px ;
-    
 }
 
 .imgcontacto2{
-width: 4%;
-height: 4%;
-padding:10px ;
+    width: 4%;
+    height: 4%;
+    padding:5px ;
 }
 
 .imgcontacto3{
     width: 5%;
     height: 5%;
-    padding:10px ;
+    padding:5px ;
     }
     
-    
+#lista1 {
+    font-family:Arial;
+    font-weight:bold;
+    font-size:13px;
+}
+.separador {
+    color:gray;
+}
+#lista1 li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
 .contacto{
     display:inline;
     color: black;
     text-align: center;
+    text-decoration: none;
+    margin-left: -5%;
     }
 
 .titlecontacto{
+    text-decoration: none;
+    color: black;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     color: black;
-    margin-left: 2%;
+    display: inline;
+    margin-bottom: 2%;
 }
 
 .fotoeventos{
@@ -208,15 +252,10 @@ ul {
   }
   
   li {
-    display: inline;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+   
   }
-
-  footer{
-    margin-top: 3%;
-    align-items: center;
-  }
-
 
 .galeria{
     display: flex;
@@ -268,6 +307,8 @@ img.galeriaimg{
     font-size: 15px;
     font-weight: bold;
 }
+
+
 
 
 @media only screen and (max-width:990px) {
@@ -350,6 +391,28 @@ img.galeriaimg{
         padding: auto;
         padding: 0 auto; 
         }
+
+        
+        
+    img.imgcontacto3{
+        width: 8%;
+    }
+
+    img.imgcontacto{
+        width: 9%;
+    }
+
+    img.imgcontacto2{
+        width: 6%;
+    }
+
+    ul#lista1{
+        margin-left: -15%;
+    }
+    
+    ul.dropdown-menu.show{
+        text-align: center;
+    }
  }
 
  @media only screen and (max-width:768px) {
@@ -425,8 +488,10 @@ img.galeriaimg{
     }
 
     footer{
-        align-items: center;
+        display: flex;
+        align-items: flex-end;
     }
+
 
     .galeriaimg{
         width:100%;
@@ -450,7 +515,29 @@ img.galeriaimg{
         padding: auto;
 
         }
+
+        
+    img.imgcontacto3{
+        width: 6%;
+    }
+
+    img.imgcontacto{
+        width: 7%;
+    }
+
+    img.imgcontacto2{
+        width: 5%;
+    }
+
+    ul#lista1{
+        margin-left: -15%;
+    }
+
+    ul.dropdown-menu.show{
+        text-align: center;
+    }
  }
+
 
 
 
@@ -555,8 +642,9 @@ img.galeriaimg{
     }
 
     footer{
+        display: flex;
         margin-top: 10%;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .aboutme{
@@ -566,4 +654,31 @@ img.galeriaimg{
         }
 
 
+    ul#lista1{
+        margin-left: -15%;
+        display: flex;
+        flex-direction:column;    
+    }
+
+    .fotosmini{
+        margin-left: -6%;
+    }
+
+    img.imgcontacto3{
+        width: 11%;
+    }
+
+    img.imgcontacto{
+        width: 13%;
+    }
+
+    img.imgcontacto2{
+        width: 9%;
+    }
+
+    ul.dropdown-menu.show{
+        text-align: center;
+    }
+
  }
+ 
