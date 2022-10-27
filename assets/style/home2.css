@@ -117,13 +117,9 @@ a.nav-link:hover{
     text-align: center;
 }
 
-.fotosmini{
-    display: flex ;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 1rem;
-    align-items: center;
-    justify-content: center;
+.carrusel{
+    width: 70%;
+    margin: 0 auto;
 }
 
 .contenedorgrande{
