@@ -45,7 +45,7 @@ h4.descripcion{
 .navbar{
     background-color: rgba(255, 255, 255, 0.808);
     height: 80px;
-    margin-bottom: 1.5%;
+    margin-bottom: -2%;
     text-align: center;
     justify-content: center;
 }
@@ -420,7 +420,14 @@ img.galeriaimg{
         padding: 0 auto; 
         }
 
-        
+    img.preparativo{
+        width: 60%;
+        align-items: center;
+    }
+
+    div.imgdesc.aos-init.aos-animate{
+        margin-left: 30%;
+    }
         
     img.imgcontacto3{
         width: 8%;
@@ -491,7 +498,10 @@ img.galeriaimg{
         height: 100%;
      }
 
-
+     img.preparativo{
+        width: 60%;
+        align-items: center;
+    }
 
      .main-img{
         display: flex;
